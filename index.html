@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ilham supryadi</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">ilham supryadi</a>
+
+      <!-- Icon the manuBurger -->
+      <ion-icon
+        name="menu-outline"
+        class="header__toggle"
+        id="nav-toggle"
+      ></ion-icon>
+
+      <nav class="nav" id="nav-menu">
+        <div class="nav__content bd-grid">
+          <!-- icon the menuClose -->
+          <ion-icon
+            name="close-outline"
+            class="nav__close"
+            id="nav-close"
+          ></ion-icon>
+
+          <div class="nav__perfil">
+            <!-- <div class="nav__img">
+              <img src="foto/aku juga.jfif" alt="" />
+            </div> -->
+
+            <div>
+              <a href="#" class="nav__name">Ilham Supryadi</a>
+              <!-- <span nav__profesion>Web Developer</span> -->
+            </div>
+          </div>
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#services" class="nav__link">Service</a>
+              </li>
+              <li class="nav__item">
+                <a href="#portfolio" class="nav__link">Portfolio</a>
+              </li>
+              <li class="nav__item">
+                <a href="#certificates" class="nav__link">certificate</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__social">
+            <a href="#" class="nav__social-icon">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="#" class="nav__social-icon">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="#" class="nav__social-icon">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="foto/ilham.jfif" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>hi, it's ilham</h1>
+        <h3>i'm a <span class="typing-text"></span></h3>
+        <p>
+          Welcome to my portfolio. Discover my best works in web development and
+          3D design. Explore my innovative and high-quality projects. Thank you
+          for visiting, and I look forward to working with you.
+        </p>
+        <div class="social-icons">
+          <a href="  https://wa.me/6283895775553"
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAi9JREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGS+R+f7ent77/vafPWd1e3e8z/P/zznOc9t0srR1Mr1tQmAsViAyRiCX7iFO7iAB/VYqNdBPxzGDHzOQk/wDaMxEj2wG1vwvRZQGUDc9Bo6YAOO40+NAmsT4AXm4VF1Ti2AXriXVEzF8wZCGFF0dAbtMBxfKvNrAZzDeIzDy4KmPuiGp3WAAuQ+jmBlPYBJuIFlmTwsu3mHASU0NdfbjB2YjkvNL6s72Iel6FkM7kfR7ibszOQY9sU6XXRKMQRdc8sAHuI15mTCKhzI5wA+2mAecT5iVBnAm4L/mMGKTOidc/iIkO3PBgCHsAjdywCe5bAWVhQKKe7FQaxpMIegcz06lgGcT/4nVN30ZG5z8BuAnZOuUM2pomh0GBF5YzC4DGB7DrYv3laAtC+A92A1PvHPw0K6EbvyTOzBe5zG8jKAgblY24qErTX4npZ0Dc1vvzEzZRncn0hraVFbrUULJYShhcmVRdAQg3yVIuiPuwivmlJ5qBqgS/IZ+7CxgWKaP0fxywkY2x8yb4lqgNk4W9C0GNF+bOXtYouP4WsVYMxpCdalssK3Gprd/hxkc604MCit+HrSEa4aXjUxk27m9tc0xeoOwkMi8SquFJL8UNhx1+Jm84sfzCyEfMNGHqdnhUSD+9JoE7/M/5x17bRW7+Av0jpxGTt6Zt0AAAAASUVORK5CYII="
+          /></a>
+          <a href="https://www.linkedin.com/in/ilham-supryadi-3329b22b9/"
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1U0rRkEYxvHfQykrsrFSXoqFKFl5KQsfQ76AslA2VvZKSfkG8jFkIUXWkuRtZaVsWCg0NUfTOFHPeLJg6tQ953Rf/3uue2ZOQ4tHo8X66gCDeMXNT8BzwDaWo/AmVkshKWAE55lgP25LIN8BBkqtyi3awVKseAsrJdWH3LomD8cmX5aK1wGm0RGFn3Ec4wl0xfgJJ+jBLMbQjj18KipfwT16o9AVhmJ8iJkYX2A9Cqb5YWuvYSNdeTOAB3TGp87FeexXH5oBVLkBdIdxtCWkYNVCKWAXi1FkDgcJ4AyjpYBwKEMvqhFW0hcnj+guBYSd9pIATjGZzD+s/6oH1wgXXxjpLgrz4PlbIniEqX9AddD+uEV1R7/o3a/89IsqzpPfAXF0UxkpbL/qAAAAAElFTkSuQmCC"
+          /></a>
+          <a href="https://github.com/ilhamsupr"
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjBJREFUSEu11UnIjlEUB/DfJ7IhCyRZosxFslCKKGFjKEOKEjKlJGOJZAglkiHsCCXDhh0LC5SIjEWysDAkC1KIPOfrvnW/53uHx+I7m/e99/7P/Z9z7jn/p00XW1sX368VQQ/MxgyMxlDafd7hCW4W+1fwu1GgzQim4SSGtMjyLVbiVj1cI4It2J+irVLFv9iKQ2VwPYLNOFDl1jqYDTiS75cJpqRUYz/quwyrsQPd8CbVezgi6n04gWOYl/Ym4W6NJCfoiecYnA53Y2f6H+/wEd/SuhcG4nVab8fe9P8FxhRB/Yl1TrAAl7L0ItVIuYodxKYMOCtVoAPB+SKixRloIu5VuT1F/DgL+DjWlTOI8ozI0hxZ8fIa7CHGpcWDIoMJZYJP6J8A14tBmvOfBBewKPl8Qb8ywYdisAYkwG1M/U+CG5iZfL6jd5ngEcYmQHRL32YSUCIPSfmMPmn/FaKVOzzyGSzPHFfgbMUsAns6w57DkjJB1PwqviJSjD6P8Q89+tGAKOZhbRq4GMSazcflMkHMRHTSoKI9p2MVluJX6umF+JluiJJcS7juJfKXGJWmupNcz03y+x7j0+BNTlmsKV10EUFatqhEdGG71RO7o1if9GdPkzfYlUlJDXa4kJONuU8juQ5xCy26U4jYUzzDqRJZnAeuZqHCleS65hCqGHoU0xnyHQ+eWyjpNtxPmhW/nazVJzPO45MZMh2Z5DYs9Xo8dkNrRdDMt9JZlxP8A6W4YxlKv0WFAAAAAElFTkSuQmCC"
+          /></a>
+        </div>
+        <a href="#about" class="btn">about me?</a>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="foto/Desain tanpa judul.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2>about me,</h2>
+        <h1 id="wave-text">ilham supryadi</h1>
+        <p>
+          I am Ilham Supriadi, a graduate of SMKN 4 Padalarang with a major in
+          Computer Engineering and Networking. With expertise in web development
+          and 3D design, I am committed to creating innovative and high-quality
+          solutions. Constantly pursuing the latest knowledge, I am ready to
+          tackle new challenges and contribute to every project.
+        </p>
+        <a href="#contact" class="btn">contact me?</a>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="services">
+      <div class="judul">
+        <h1 class="judul-h1">Our Services</h1>
+      </div>
+
+      <div class="card">
+        <img src="foto/web development.png" alt="Web Development" />
+        <div class="intro">
+          <h1>Web Development</h1>
+          <p>
+            Enhance your digital presence with my innovative, responsive web
+            designs for efficient and impactful business results.
+          </p>
+          <a href="#" id="contact-web" class="services-me">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/3d design.png" alt="3D Design" />
+        <div class="intro">
+          <h1>3D Design</h1>
+          <p>
+            Enhance your project with my 3D design. Stunning, realistic models
+            and animations tailored to your vision.
+          </p>
+          <a href="#" id="contact-3d" class="services-me">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/graphic design.png" alt="Graphic Design" />
+        <div class="intro">
+          <h1>Graphic Design</h1>
+          <p>
+            Elevate your brand with professional graphic design. Creative visual
+            solutions that enhance your messaging and impact.
+          </p>
+          <a href="" id="contact-graphic" class="services-me">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="foto/driver.jpg" alt="Driver" />
+        <div class="intro">
+          <h1>Driver</h1>
+          <p>
+            Flexible driving services for all your needs. Customizable schedules
+            and professional service for comfortable and safe transportation.
+          </p>
+          <a href="#" id="contact-driver" class="services-me">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">My Portfolio</h2>
+        <p class="portfolio-description">
+          This is a collection of my projects showcasing details and
+          innovations. To view more works and creative explorations, click the
+          button below.
+        </p>
+        <div class="portfolio-items">
+          <div class="portfolio-card">
+            <img
+              src="foto/my poster.png"
+              alt="Project 1"
+              class="portfolio-image"
+            />
+            <div class="portfolio-info">
+              <h3>graphic design</h3>
+              <p>
+                A brief description of Project 1 highlighting its features and
+                purpose.
+              </p>
+              <a href="#" class="portfolio-button" id="project1-button"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <video width="100%" height="200" controls>
+              <source src="foto/3d design.mkv" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div class="intro">
+              <h1>3D design</h1>
+              <p>
+                This 3D office chair design focuses on comfort with an ergonomic
+                shape, plush cushioning, and adjustable features, making it
+                ideal for productivity.
+              </p>
+              <a href="#" class="portfolio-button" id="project2-button"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <img src="foto/web developer.jpg" alt="Project 2" class="portfolio-image" />
+            <div class="portfolio-info">
+              <h3>web development</h3>
+              <p>
+                A web-based financial application designed to manage, track, and
+                analyze financial data. This application can range from simple
+                budgeting tools to complex financial management systems,
+                suitable for individuals, businesses, and organizations.
+                Password: admin123, Username: admin.
+              </p>
+              <a
+                href="https://ilhamfinancial.vercel.app/"
+                class="portfolio-button"
+                id="project3-button"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <!-- Add more portfolio items as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- sertifikat -->
+
+    <section id="certificates" class="certificates-section">
+      <div class="container">
+        <h2 class="section-title">my certificate</h2>
+        <div class="certificates-grid">
+          <div class="certificate-item">
+            <img src="foto/front end developer.jpg" alt="Sertifikat 1" />
+            <h3>front end developer</h3>
+            <p>
+              This certificate is awarded to an individual who has successfully
+              completed the Front-End Web Developer training program, focusing
+              on the development of interactive web applications that meet
+              industry standards.
+            </p>
+          </div>
+          <div class="certificate-item">
+            <img src="foto/cyber.jpg" alt="Sertifikat 2" />
+            <h3>cyber security</h3>
+            <p>
+              Creating a Security Operations Center (SOC) with Wazuh involves
+              implementing an integrated security system that leverages the
+              Wazuh platform to monitor, detect, and respond to security threats
+              in real-time.
+            </p>
+          </div>
+          <div class="certificate-item">
+            <img src="foto/progriti.jpg" alt="Sertifikat 3" />
+            <h3>crud php</h3>
+            <p>
+              Creating a CRUD (Create, Read, Update, Delete) Application with
+              PHP Using Object-Oriented Programming (OOP) Approach.
+            </p>
+          </div>
+          <!-- Tambahkan sertifikat lain di sini -->
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact me</h2>
+        <div class="contact-info">
+          <div class="contact-details">
+            <h3>get in touch</h3>
+            <p>
+              If you have any questions or would like to discuss a project, feel
+              free to reach out to me. I'm here to help and look forward to
+              connecting with you!
+            </p>
+            <ul>
+              <li>
+                <i class="fa fa-phone"></i>
+                <span>+62 838 9577 5553</span>
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <span>ilhamsupryadi0@gmail.com</span>
+              </li>
+              <li>
+                <i class="fa fa-map-marker"></i>
+                <span>Padalarang District.</span>
+              </li>
+            </ul>
+            <!-- Embed Google Map -->
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127951.74675296507!2d107.45997417551586!3d-6.848698590681358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e3565202823d%3A0x92977621fc5ec5c1!2sJl.%20H.%20Dasuki%20No.15%2C%20Kertamulya%2C%20Kec.%20Padalarang%2C%20Kabupaten%20Bandung%20Barat%2C%20Jawa%20Barat%2040553!5e0!3m2!1sid!2sid!4v1694392425040!5m2!1sid!2sid"
+                width="100%"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>send a message</h3>
+            <form id="contactForm" onsubmit="sendToWhatsApp(event)">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== FONTAWESOME =============== -->
+
+    <!-- =============== IONICONS ============== -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- =============== MANIN JS ============== -->
+    <script src="main.js"></script>
+  </body>
+</html>
