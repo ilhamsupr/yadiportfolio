@@ -85,7 +85,7 @@ window.addEventListener('DOMContentLoaded', () => {
 //api services
 
 document.addEventListener('DOMContentLoaded', function() {
-  const phoneNumber = '6283895775553'; // Ganti dengan nomor WhatsApp Anda
+  const phoneNumber = '6289608089900'; // Ganti dengan nomor WhatsApp Anda
   
   // Menangani klik pada setiap tombol
   document.getElementById('contact-web').addEventListener('click', function() {
