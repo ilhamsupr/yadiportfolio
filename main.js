@@ -117,7 +117,7 @@ function sendToWhatsApp(event) {
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
 
-  var whatsappNumber = "083895775553"; // Ganti dengan nomor WhatsApp Anda
+  var whatsappNumber = "089608089900"; // Ganti dengan nomor WhatsApp Anda
   var whatsappURL = "https://api.whatsapp.com/send?phone=" + whatsappNumber + "&text=" 
                     + "Name: " + name + "%0A" 
                     + "Email: " + email + "%0A" 
